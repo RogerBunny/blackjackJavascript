@@ -1,0 +1,53 @@
+<!--
+Rules
+1.A is assumed to be 1
+2.Game starts with 2 dealt cards, both visible
+3.Casino dealer rules do not apply, ie. Dealer must stand at 17 or above to avoid bust.
+-->
+<html>
+  <head>
+    <link type="text/css" rel="stylesheet" href="styles/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Coiny" rel="stylesheet">
+    <title>Blackjack with Javascript</title>
+  </head>
+  <body>
+    <div class="wrapper">
+
+      <div id="blockp0" class="playerblock centerize">
+          <div id="headp0"><span>Dealer</span></div>
+          <span id="infop0">Total points: </span>
+          <span id="pointsp0">0</span>
+
+          <div class="dealt">
+
+          </div>
+          <div class="playerButtons">
+            <button class="matchStart" id="hitp0">HIT</button>
+            <button class="matchStart" id="standp0">STAND</button>
+            <button class="rematchButton">Restart</button>
+          </div>
+      </div>
+
+      <div id="blockp1" class="playerblock centerize">
+          <div id="headp1"><span>Player</span></div>
+          <span id="infop1">Total points: </span>
+          <span id="pointsp1">0</span>
+
+          <div class="dealt">
+
+          </div>
+          <div class="playerButtons">
+            <button class="matchStart" id="hitp1">HIT</button>
+            <button class="matchStart" id="standp1">STAND</button>
+            <button class="rematchButton">Restart</button>
+          </div>
+      </div>
+
+    </div>
+    <script src="scripts/jquery-3.3.1.min.js"></script>
+    <script src="scripts/script.js"></script>
+  </body>
+
+
+</html>
